@@ -27,7 +27,7 @@ export const TodoTable: React.FC = () => {
   const allCompleted = todos.every(todo => todo.completed);
   const countNotCompleted = activeTodos.length;
 
-  const USER_ID = 10278;
+  const USER_ID = 66;
 
   const handleGetUser = async () => {
     setError(ErrorTypes.NONE);
